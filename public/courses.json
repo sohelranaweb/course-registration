@@ -1,0 +1,65 @@
+[
+  {
+    "cover_img": "https://example.com/img1.jpg",
+    "title": "Product 1",
+    "description": "This is the description for Product 1.",
+    "price": 29.99,
+    "credit": 5
+  },
+  {
+    "cover_img": "https://example.com/img2.jpg",
+    "title": "Product 2",
+    "description": "Introducing Product 2 with a detailed description.",
+    "price": 39.99,
+    "credit": 4
+  },
+  {
+    "cover_img": "https://example.com/img3.jpg",
+    "title": "Product 3",
+    "description": "Product 3 is perfect for your needs.",
+    "price": 19.99,
+    "credit": 3
+  },
+  {
+    "cover_img": "https://example.com/img4.jpg",
+    "title": "Product 4",
+    "description": "The ultimate Product 4 for your satisfaction.",
+    "price": 49.99,
+    "credit": 5
+  },
+  {
+    "cover_img": "https://example.com/img5.jpg",
+    "title": "Product 5",
+    "description": "Get the best with Product 5.",
+    "price": 59.99,
+    "credit": 4
+  },
+  {
+    "cover_img": "https://example.com/img6.jpg",
+    "title": "Product 6",
+    "description": "Product 6 - your go-to choice.",
+    "price": 24.99,
+    "credit": 3
+  },
+  {
+    "cover_img": "https://example.com/img7.jpg",
+    "title": "Product 7",
+    "description": "Experience excellence with Product 7.",
+    "price": 34.99,
+    "credit": 4
+  },
+  {
+    "cover_img": "https://example.com/img8.jpg",
+    "title": "Product 8",
+    "description": "Product 8: Where quality meets affordability.",
+    "price": 14.99,
+    "credit": 2
+  },
+  {
+    "cover_img": "https://example.com/img9.jpg",
+    "title": "Product 9",
+    "description": "Elevate your lifestyle with Product 9.",
+    "price": 44.99,
+    "credit": 5
+  }
+]
