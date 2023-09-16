@@ -1,9 +1,10 @@
 import PropTypes from "prop-types";
 import { FaDollarSign, FaBookOpen } from "react-icons/fa";
-const Course = ({ course }) => {
+const Course = ({ course, handleAddToCourse }) => {
   const { cover_img, title, description, price, credit } = course;
+
   return (
-    <div className="w-[305px] h-[410px] shadow-sm rounded-lg bg-white p-4 space-y-4">
+    <div className="w-[305px]l h-[410px] shadow-sm rounded-lg bg-white p-4 space-y-4">
       <img src={cover_img} alt="" />
       <h1 className="text-lg font-semibold">{title}</h1>
       <p className="text-sm font-normal text-[#1C1B1B99]">{description}</p>
@@ -21,7 +22,10 @@ const Course = ({ course }) => {
           <small className="text-base font-medium">Credit: {credit}hr</small>
         </p>
       </div>
-      <button className="bg-[#2F80ED] text-white text-lg font-semibold w-full py-2 rounded-lg">
+      <button
+        onClick={() => handleAddToCourse(course)}
+        className="bg-[#2F80ED] text-white text-lg font-semibold w-full py-2 rounded-lg"
+      >
         Select
       </button>
     </div>
@@ -30,6 +34,7 @@ const Course = ({ course }) => {
 
 Course.propTypes = {
   course: PropTypes.object,
+  handleAddToCourse: PropTypes.func,
 };
 
 export default Course;
