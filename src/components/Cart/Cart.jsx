@@ -8,7 +8,7 @@ const Cart = ({ selectedCourse, price, credit, remainingCredit }) => {
       <div className="border-b-2 py-2">
         <h1 className="text-xl font-bold py-4">Course Name</h1>
         <h1>Course No: {selectedCourse.length}</h1>
-        <ol className="list-decimal">
+        <ol>
           {selectedCourse.map((course) => (
             <li key={course.id}>{course.title}</li>
           ))}

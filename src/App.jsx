@@ -24,7 +24,7 @@ function App() {
       const totalPrice = price + course.price;
       const totalCredit = credit + course.credit;
       const totalRemainigCredit = initialCredit - totalCredit;
-      if (totalRemainigCredit < 0) {
+      if (totalRemainigCredit) {
         creditNotify();
       } else {
         setRemainingCredit(totalRemainigCredit);
