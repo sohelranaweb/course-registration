@@ -4,7 +4,7 @@ const Course = ({ course, handleAddToCourse }) => {
   const { cover_img, title, description, price, credit } = course;
 
   return (
-    <div className="w-[305px]l h-[410px] shadow-sm rounded-lg bg-white p-4 space-y-4">
+    <div className="w-[305px]l h-[420px] shadow-sm rounded-lg bg-white p-4 space-y-4">
       <img src={cover_img} alt="" />
       <h1 className="text-lg font-semibold">{title}</h1>
       <p className="text-sm font-normal text-[#1C1B1B99]">{description}</p>
