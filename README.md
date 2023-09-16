@@ -1,4 +1,4 @@
-Course Registration
+## Course Registration
 
 1. Add at least 3 Project features:
 - Course Catalog:
