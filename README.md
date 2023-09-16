@@ -12,4 +12,5 @@ Integrated coding environments for various programming languages allow learners 
 Users can work on coding exercises, projects, and assignments, with real-time feedback and code analysis.
 
 2. Discuss how you managed the state in your assignment project:
+   
 In my assignment project, I managed the state using a combination of local component state and context-based state management. I utilized React's useState for component-level state and employed useContext and useReducer for global state management, ensuring efficient data flow and updates across the application while maintaining a clear separation of concerns.
